@@ -24,6 +24,7 @@ Configure the control by passing in parameters in the Source field of the Templa
 - For the drop types, you must set HideDefault or HideValues in the source.
 - If these values are not set then a standard control is rendered.
 - If you need to set a datasource then set it using parameters, e.g. Datasource=/sitecore/content/home&HideDefault=true
+- Only fields within the same collapsible section are hidden.
 
 **Values:**
 - HideDefault: [boolean] - true/false value indicating whether the fields should be hidden by default (i.e. when checkbox is not checked or no value selected in select list)
