@@ -2,7 +2,7 @@ Hide Dependent Fields Controls
 ==============================
 
 Author: Kamruz Jaman 
-Twitter: @jammykam
+<br />Twitter: @jammykam
 
 Description
 -----------
