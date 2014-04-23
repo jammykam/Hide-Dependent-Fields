@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HideDependentFields.Types", "HideDependent.Fields\HideDependentFields.Types.csproj", "{F2094F1B-5AA9-44F5-9722-25B5D3E938EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{9EE905D1-CC2A-40F8-8221-1787A675094A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JavaScript", "JavaScript", "{A0D20AC5-1DA7-46AF-B52D-823333B75EF4}"
+	ProjectSection(SolutionItems) = preProject
+		HideDependent.Web\sitecore modules\HideDependentFields\script.js = HideDependent.Web\sitecore modules\HideDependentFields\script.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{0D59EC3E-7727-43DC-A806-34BFB7B4B617}"
+	ProjectSection(SolutionItems) = preProject
+		HideDependent.Web\App_Config\Include\Custom\ContentEditorScripts.config = HideDependent.Web\App_Config\Include\Custom\ContentEditorScripts.config
+		HideDependent.Web\App_Config\Include\Custom\HideDependentFields.config = HideDependent.Web\App_Config\Include\Custom\HideDependentFields.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2094F1B-5AA9-44F5-9722-25B5D3E938EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2094F1B-5AA9-44F5-9722-25B5D3E938EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2094F1B-5AA9-44F5-9722-25B5D3E938EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2094F1B-5AA9-44F5-9722-25B5D3E938EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0D20AC5-1DA7-46AF-B52D-823333B75EF4} = {9EE905D1-CC2A-40F8-8221-1787A675094A}
+		{0D59EC3E-7727-43DC-A806-34BFB7B4B617} = {9EE905D1-CC2A-40F8-8221-1787A675094A}
+	EndGlobalSection
+EndGlobal

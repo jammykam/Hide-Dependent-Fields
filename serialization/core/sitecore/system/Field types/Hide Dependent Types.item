@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {9169FE5F-EB2C-46D9-A9AC-5FA3F9DFBCC7}
+database: core
+path: /sitecore/system/Field types/Hide Dependent Types
+parent: {76E6D8C7-1F93-4712-872B-DA3C96B808F2}
+name: Hide Dependent Types
+master: {30235F43-6242-4107-87AB-5267E34EDF0C}
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+325
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: e5475bbe-1df9-4a4c-9c0d-225fe48ba3dd
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140411T165233
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e5475bbe-1df9-4a4c-9c0d-225fe48ba3dd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140419T235426:635335484665423450
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
